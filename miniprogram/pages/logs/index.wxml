@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="content">
+    <!--pics文件夹下的background.jpg文件-->
+    <image class='background' src="../../image/G4.jpg" mode="aspectFill"></image>
+    <!--页面其它部分-->
+</view>
+<button wx:if="{{!userInfo}}" bindtap="login">授权登录</button>
+<view wx:else class="root">
+  <image class="touxiang" src="{{userInfo.avatarUrl}}"></image>
+  <text class="nicheng">{{userInfo.nickName}}</text>
+  <navigator url="/pages/index/index"  open-type='switchTab' >
+    <button class="sytem">
+      <text>1.登入</text>
+    </button>
+</navigator>
+
+  <button class="exit" bindtap="loginOut">2.退出</button>
+</view>

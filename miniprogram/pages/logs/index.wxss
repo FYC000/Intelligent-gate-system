@@ -1,0 +1,32 @@
+.root{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.touxiang{
+  width:200rpx;
+  height:200rpx;
+  border-radius:50%;
+  margin-top:30rpx;
+  margin-bottom:10rpx;
+}
+
+.sytem{
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.exit{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+page{
+  height:100%;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+

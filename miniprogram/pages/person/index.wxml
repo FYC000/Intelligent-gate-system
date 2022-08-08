@@ -1,0 +1,33 @@
+<!--pages/person/index.wxml-->
+<view>
+  <image mode="aspectFill" src="../../image/G7.jpg  "></image>
+</view>
+<view class='text1'>
+  <text>姓名: </text>
+  <text>{{userName}}</text>
+</view>
+<view class='text1'>
+  <text>性别: </text>
+  <text>{{gender}}</text>
+</view>
+<view class='text1'>
+  <text>车牌号: </text>
+  <text>{{idcd}}</text>
+</view>
+<view class='text1'>
+  <text>手机号: </text>
+  <text>{{telenumber}}</text>
+</view>
+<view class='text1'>
+  <text>家庭地址: </text>
+  <text>{{address}}</text>
+</view>
+<view class='text1'>
+  <text>预约情况: </text>
+  <text>{{status}}</text>
+</view>
+
+<navigator url="/pages/user/index"  open-type='switchTab' >
+  <button class="exit" hover-class="exit-hover" >返回</button>
+</navigator>
+

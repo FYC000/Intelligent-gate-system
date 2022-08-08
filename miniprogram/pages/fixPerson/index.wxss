@@ -1,0 +1,25 @@
+/* pages/fixPerson/index.wxss */
+.zhuce{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color:white;
+  color:darkviolet;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size:18px;
+}
+.option{
+  background-color:white;
+  box-sizing: border-box;
+}
+.option-hover{
+  background-color: red;
+}
+.exit{
+  bottom: 15px;
+  background-color:white;
+}
+.exit-hover{
+  background-color: red;
+}

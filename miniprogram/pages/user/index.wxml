@@ -1,0 +1,41 @@
+<view class="user_btn">
+  <image  class="user_icon" mode="aspectFill" src="../../icons/G5.png  "></image>
+</view>
+
+<view class="user_content">
+  
+  <view class="user_main">
+    <!-- 我的订单 -->
+    <view class="orders_wrap">
+      <view class="orders_title">
+        <navigator url="/pages/person/index" open-type="redirect">
+            <text class="order_name">个人信息</text>
+        </navigator>
+      </view>
+      <view clas="orders_content1">
+        <navigator url="/pages/fixPerson/index" open-type="redirect">
+            <view class="order_fix">修改信息</view>
+        </navigator>
+      </view>
+      <view clas="orders_content">
+        <navigator url="/pages/time/index" open-type="redirect">
+            <view class="order_exit">预约退订（预定时间）</view>
+        </navigator>
+      </view>
+    </view>
+    <!-- 收货地址管理 -->
+    <!-- 应用信息相关 -->
+    <view class="app_info_wrap">
+      <view class="app_info_item app_info_contact">
+        <text>联系客服</text>
+        <text>400-618-4000</text>
+      </view>
+      <navigator url="/pages/feedback/index" class="app_info_item">意见反馈</navigator>
+      <view class="app_info_item">关于我们</view>
+    </view>
+    <!-- 推荐 -->
+    <view class="recommend_wrap">
+      把应用推荐给其他人
+    </view>
+  </view>
+</view>

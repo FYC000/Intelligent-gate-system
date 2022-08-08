@@ -1,0 +1,40 @@
+<!--pages/fixPerson/index.wxml-->
+<form bindsubmit="formBindsubmit" bindreset="formReset">
+  <view class="zhuce" style="display:flex;">
+    <label>姓名：</label>
+    <input type="text" name="userName" placeholder="姓名" placeholder-style="color:#bfbfbf;font-size:40rpx" />
+  </view>
+  <view class="zhuce" style="display:flex;">
+    <label>性别：</label>
+    <input type="text" name="gender" placeholder="性别" placeholder-style="color:#bfbfbf;font-size:40rpx" />
+  </view>
+  <view class="zhuce" style="display:flex;">
+    <label>身份证号：</label>
+    <input type="text" name="idcd" placeholder="车牌号" 
+    password="true" placeholder-style="color:#bfbfbf;font-size:40rpx"/>
+  </view>
+  <view class="zhuce" style="display:flex;">
+    <label>手机号：</label>
+    <input type="number" name="telenumber" placeholder="手机号" password="true" placeholder-style="color:#bfbfbf;font-size:40rpx" />
+  </view>
+  <view class="zhuce" style="display:flex;">
+    <label>家庭地址：</label>
+    <input type="text" name="address" placeholder="家庭地址" placeholder-style="color:#bfbfbf;font-size:40rpx" />
+  </view>
+  <view class="zhuce" style="display:flex;">
+    <label>预约时间：</label>
+    <input type="text" name="time1" placeholder="预约时间"  placeholder-style="color:#bfbfbf;font-size:40rpx"/>
+  </view>
+  <view style="color:#bfbfbf;font-size:40rpx" class="exmp ">预约时间格式：xxxx-xx-xx(年-月-日)</view>
+  <view style="display:flex;margin-top:30px;">
+    <button class="option" hover-class="option-hover" style="width:30%;" formType="submit" >确定</button>
+    <button class="option" hover-class="option-hover" style="width:30%" formType="reset" >重置</button>
+    
+  </view>
+</form>
+<view>{{tip}}</view>
+<view style="margin-top: 120px;"></view>
+
+<navigator url="/pages/user/index"  open-type='switchTab' >
+  <button class="exit" hover-class="exit-hover" >返回</button>
+</navigator>

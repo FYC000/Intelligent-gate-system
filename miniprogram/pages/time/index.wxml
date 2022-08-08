@@ -1,0 +1,20 @@
+<!--pages/time/index.wxml-->
+<view>
+  <image mode="aspectFill" src="../../image/G6.jpg  "></image>
+</view>
+<view class="fixedTime">
+  <text>预定时间: </text>
+  <text>{{time1}}</text>
+</view>
+<form bindsubmit="formBindsubmit">
+  <view style="display:flex;margin-top:30px;">
+    <button class="updata" style="width:100px;height:50px" hover-class="updata-hover" formType="submit">退订</button>
+  </view>
+</form>
+
+<view class='wenzi'>{{tip}}</view>
+  <view style="display:flex;margin-top:30px;">
+  <navigator url="/pages/user/index"  open-type='switchTab' >
+    <button class="exit" style="width:100px;left:130px;height:50px" hover-class="exit-hover" >返回</button>
+  </navigator>
+</view >

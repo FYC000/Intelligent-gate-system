@@ -1,0 +1,31 @@
+/**index.wxss**/
+.dating{
+  font-size:20px;
+  text-align: center;
+  background-color:orange;
+  
+}
+
+.zhuce{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color:white;
+  color:darkviolet;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size:15px;
+}
+.option{
+  background-color:white;
+  box-sizing: border-box;
+}
+.option-hover{
+  background-color: red;
+}
+.exit{
+  background-color:white;
+}
+.exit-hover{
+  background-color: red;
+}

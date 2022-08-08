@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="index">
+    <!--轮播图-->
+  <swiper class="home-swiper" indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for-items="{{lunboData}}">
+      <swiper-item>
+        <image src="{{item.imgurl}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+
+
+
+<text>
+
+<text class="Go">【预约须知】</text>
+1.
+<text class="Go">2.</text>
+3.
+4.
+<text class="Go">5.</text>
+6.
+7.
+
+</text>
+<view class="shuoming">
+    <view class="shuoming_biaoti">预约使用说明</view>
+    <view class="divLineX"></view>
+    <view class="shuoming_xiangmu">1：</view>
+    <view class="cartLeft"></view>
+    <view class="shuoming_xiangmu">2：</view>
+    <view class="cartLeft"></view>
+    <view class="shuoming_xiangmu">3：</view>
+    <view class="cartLeft"></view>
+    <view class="empty"></view>
+</view>
+
+<navigator class="yuyue" url="/pages/sign/index"  open-type='redirect' >
+    <button class="butt">
+      <text>点击预约</text>
+    </button>
+</navigator>
+</view>
